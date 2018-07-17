@@ -1,0 +1,9 @@
+
+一、磁盘或文件目录大小
+
+1.查看硬盘剩余空间 #df -h #df -H
+2.查看硬盘的分区 #sudo fdisk -l
+3.查看IDE硬盘信息 #sudo hdparm -i /dev/hda
+4.查看STAT硬盘信息 #sudo hdparm -I /dev/sda 或 #sudo apt-get install blktool #sudo blktool /dev/sda id
+5.查看目录占用空间 #du -hs 目录名
+6.查看目录所占空间 #du -h  --max-depth=1 
